@@ -21,6 +21,9 @@ public class CityNPCFactory : AbstractNPCFactory
             case NPCType.Lawer:
                 INPC lawer = new Lawer();
                 return lawer;
+            case NPCType.Teacher:
+                INPC teacher = new Teacher();
+                return teacher;
         }
         return null;
     }

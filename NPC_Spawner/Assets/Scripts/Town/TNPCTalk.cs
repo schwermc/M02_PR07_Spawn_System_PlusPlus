@@ -4,7 +4,7 @@ using UnityEngine.UI;
 using TMPro;
 using System;
 
-public class VNPCTalk : MonoBehaviour
+public class TNPCTalk : MonoBehaviour
 {
     public Client client;
     public TMP_Text npcTalk;
@@ -18,7 +18,7 @@ public class VNPCTalk : MonoBehaviour
 
         if (buttonText != null)
         {
-            m_NPC = client.GetVNPC(emunType);
+            m_NPC = client.GetTNPC(emunType);
             npcTalk.text = m_NPC.Speak();
             StartCoroutine(NPCCoroutine(30f));
         }

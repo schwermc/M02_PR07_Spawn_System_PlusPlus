@@ -20,7 +20,7 @@ public class CNPCTalk : MonoBehaviour
         {
             m_NPC = client.GetCNPC(emunType);
             npcTalk.text = m_NPC.Speak();
-            StartCoroutine(NPCCoroutine(10f));
+            StartCoroutine(NPCCoroutine(30f));
         }
     }
 

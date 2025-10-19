@@ -1,0 +1,20 @@
+public enum NPCType
+{
+    Beggar,
+    Blacksmith,
+    Cleric,
+    Farmer,
+    Miner,
+    Shopowner,
+    Baker,
+    Banker,
+    Lawer,
+    Teacher,
+    Bartender,
+    Bookkeeper,
+    Clothier,
+    Hairstylist,
+    Engineers,
+    Mechanic,
+    Nurse
+}
